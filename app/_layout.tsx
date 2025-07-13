@@ -2,6 +2,7 @@ import { Stack } from "expo-router";
 import { Fragment, useEffect } from "react";
 import TrackPlayer from "react-native-track-player";
 import { StatusBar } from "expo-status-bar";
+import "../global.css";
 
 export default function RootLayout() {
   useEffect(() => {

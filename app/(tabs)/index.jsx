@@ -3,7 +3,6 @@ import {
   View,
   Text,
   StyleSheet,
-  SafeAreaView,
   Dimensions,
   TouchableOpacity,
   Image,
@@ -22,6 +21,7 @@ import TrackPlayer, {
 import Slider from "@react-native-community/slider";
 import { Ionicons } from "@expo/vector-icons";
 import ExpoHLSPlayer from "../../components/ExpoHLSPlayer";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
@@ -266,6 +266,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    padding: 10,
   },
   mainWrapper: {
     width: width,
