@@ -1,6 +1,6 @@
 import TrackPlayer, { Event } from "react-native-track-player";
 
-module.exports = async function () {
+const PlaybackService = async function () {
   // This service runs in a separate context
   console.log("TrackPlayer service started");
 
@@ -57,4 +57,10 @@ module.exports = async function () {
   TrackPlayer.addEventListener(Event.PlaybackActiveTrackChanged, (event) => {
     console.log("Active track changed:", event.index);
   });
+
+  TrackPlayer.addEventListener(Event.RemoteDuck, (event) => {
+    console.log("Dukc track changed:", event);
+  });
 };
+
+export default PlaybackService;

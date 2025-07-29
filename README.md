@@ -1,3 +1,52 @@
+## Command Line
+
+```
+    "newArchEnabled": false,
+
+in eas.json to tell the gradle not using newArchEnabled because react-native-track-player (RTNP) not supported it
+```
+
+```
+npx expo prebuild -p android --clean
+
+prebuild the android after add some deps or code touch native
+```
+
+```
+npx expo run:android
+
+run the app to android, which use device already connect to adb
+```
+
+```
+adb pair 192.168.1.9:33757 -> pair with wireless debugging and put some auth after that
+adb devices -l -> list of devices connected
+adb push build-1752600101742.apk /sdcard/Download/ -> push apk build to android detected
+```
+
+## Config
+
+```
+{
+    "android": {
+        "usesCleartextTraffic": true
+    }
+}
+on app.json to support http not only https
+
+```
+
+```
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+
+eas build --platform android --profile preview --local -> build local apk with preview profile on eas.json
+```
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).

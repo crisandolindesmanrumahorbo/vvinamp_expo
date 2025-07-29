@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { colors } from "@/constants/tokens";
+
 import {
   View,
   Text,
   StyleSheet,
   Dimensions,
   TouchableOpacity,
-  Image,
   StatusBar,
 } from "react-native";
 import TrackPlayer, {
@@ -20,14 +21,12 @@ import TrackPlayer, {
 } from "react-native-track-player";
 import Slider from "@react-native-community/slider";
 import { Ionicons } from "@expo/vector-icons";
-import ExpoHLSPlayer from "../../components/ExpoHLSPlayer";
-import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" />
-      <ExpoHLSPlayer />
+      {/* <ExpoHLSPlayer /> */}
 
       {/* <MusicPlayer /> */}
     </View>
@@ -105,6 +104,7 @@ function MusicPlayer() {
           Capability.SkipToNext,
           Capability.SkipToPrevious,
           Capability.SeekTo, // Important for streaming
+          Capability.Stop,
         ],
         android: {
           appKilledPlaybackBehavior:
@@ -184,74 +184,66 @@ function MusicPlayer() {
   }, []);
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.mainContainer}>
-        <View style={styles.mainWrapper}></View>
-        <View style={styles.songText}>
-          <Text
-            style={[styles.songContent, styles.songTitle]}
-            numberOfLines={3}
-          >
-            {trackTitle}
+    <View style={styles.container}>
+      <View style={styles.mainWrapper}></View>
+      <View style={styles.songText}>
+        <Text style={[styles.songContent, styles.songTitle]} numberOfLines={3}>
+          {trackTitle}
+        </Text>
+        <Text style={[styles.songContent, styles.songArtist]} numberOfLines={2}>
+          {trackArtist}
+        </Text>
+      </View>
+      <View>
+        <Slider
+          style={styles.progressBar}
+          value={progress.position}
+          minimumValue={0}
+          maximumValue={progress.duration}
+          thumbTintColor="#FFD369"
+          minimumTrackTintColor="#FFD369"
+          maximumTrackTintColor="#fff"
+          onSlidingComplete={async (value) => await TrackPlayer.seekTo(value)}
+        />
+        <View style={styles.progressLevelDuraiton}>
+          <Text style={styles.progressLabelText}>
+            {new Date(progress.position * 1000)
+              .toLocaleTimeString()
+              .substring(3)}
           </Text>
-          <Text
-            style={[styles.songContent, styles.songArtist]}
-            numberOfLines={2}
-          >
-            {trackArtist}
+          <Text style={styles.progressLabelText}>
+            {new Date((progress.duration - progress.position) * 1000)
+              .toLocaleTimeString()
+              .substring(3)}
           </Text>
-        </View>
-        <View>
-          <Slider
-            style={styles.progressBar}
-            value={progress.position}
-            minimumValue={0}
-            maximumValue={progress.duration}
-            thumbTintColor="#FFD369"
-            minimumTrackTintColor="#FFD369"
-            maximumTrackTintColor="#fff"
-            onSlidingComplete={async (value) => await TrackPlayer.seekTo(value)}
-          />
-          <View style={styles.progressLevelDuraiton}>
-            <Text style={styles.progressLabelText}>
-              {new Date(progress.position * 1000)
-                .toLocaleTimeString()
-                .substring(3)}
-            </Text>
-            <Text style={styles.progressLabelText}>
-              {new Date((progress.duration - progress.position) * 1000)
-                .toLocaleTimeString()
-                .substring(3)}
-            </Text>
-          </View>
-        </View>
-        <View style={styles.musicControlsContainer}>
-          <TouchableOpacity onPress={previoustrack}>
-            <Ionicons name="play-skip-back-outline" size={35} color="#FFD369" />
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => togglePlayBack(playBackState)}>
-            <Ionicons
-              name={
-                playBackState === State.Playing
-                  ? "pause-circle"
-                  : playBackState === State.Connecting
-                    ? "caret-down-circle"
-                    : "play-circle"
-              }
-              size={75}
-              color="#FFD369"
-            />
-          </TouchableOpacity>
-          <TouchableOpacity onPress={nexttrack}>
-            <Ionicons
-              name="play-skip-forward-outline"
-              size={35}
-              color="#FFD369"
-            />
-          </TouchableOpacity>
         </View>
       </View>
-    </SafeAreaView>
+      <View style={styles.musicControlsContainer}>
+        <TouchableOpacity onPress={previoustrack}>
+          <Ionicons name="play-skip-back-outline" size={35} color="#FFD369" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => togglePlayBack(playBackState)}>
+          <Ionicons
+            name={
+              playBackState === State.Playing
+                ? "pause-circle"
+                : playBackState === State.Connecting
+                  ? "caret-down-circle"
+                  : "play-circle"
+            }
+            size={75}
+            color="#FFD369"
+          />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={nexttrack}>
+          <Ionicons
+            name="play-skip-forward-outline"
+            size={35}
+            color="#FFD369"
+          />
+        </TouchableOpacity>
+      </View>
+    </View>
   );
 }
 
@@ -260,7 +252,7 @@ const { width, height } = Dimensions.get("window");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#222831",
+    backgroundColor: colors.background,
   },
   mainContainer: {
     flex: 1,

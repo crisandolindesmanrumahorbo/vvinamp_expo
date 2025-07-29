@@ -65,7 +65,7 @@ const ExpoHLSPlayer = () => {
       // Setup player with streaming-optimized settings
       await TrackPlayer.setupPlayer({
         // Smaller buffers for better streaming performance
-        maxCacheSize: 1024 * 1024, // 1MB cache
+        maxCacheSize: 10 * 1024 * 1024, // 1MB cache
         // playBuffer: 10000, // 15 seconds
         // minBuffer: 10000, // 5 seconds
         // maxBuffer: 10000, // 30 seconds
@@ -312,7 +312,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#000",
   },
   title: {
     fontSize: 24,
