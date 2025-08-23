@@ -22,12 +22,10 @@ A mobile app for searching, downloading, and streaming YouTube audio, built with
 
 ## 🌃 Documentary
 
-<img width="200" src="assets/images/list.jpg" alt="Vvinamp List">
-<img width="200" src="assets/images/player.jpg" alt="Vvinamp Player">
-<img width="200" src="assets/images/search.jpg" alt="Vvinamp Search">
-<img width="200" src="assets/images/lockscreen.jpg" alt="Vvinamp Lockscreen">
+<img width="200" src="assets/images/list.jpg" alt="Vvinamp List"><img width="200" src="assets/images/player.jpg" alt="Vvinamp Player"><img width="200" src="assets/images/search.jpg" alt="Vvinamp Search"><img width="200" src="assets/images/lockscreen.jpg" alt="Vvinamp Lockscreen">
     
-<iframe src="https://drive.google.com/file/d/1CXv_J6Uaov26Mxp30yLyVzs2_QCPlq3H/preview" width="640" height="480" allow="autoplay"></iframe>
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/VIDEO_ID)
+
 
 ## Get started
 
