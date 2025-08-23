@@ -1,55 +1,33 @@
-## Command Line
+<div align="center">
+  <img width="200" src="assets/images/vvinamp.png" alt="vvinamp logo">
+</div>
 
-```
-    "newArchEnabled": false,
 
-in eas.json to tell the gradle not using newArchEnabled because react-native-track-player (RTNP) not supported it
-```
+# Welcome to VVinamp 👋
 
-```
-npx expo prebuild -p android --clean
+A mobile app for searching, downloading, and streaming YouTube audio, built with Rust backend and Expo React Native frontend. Features include background playback, progress tracking, and adaptive streaming.
 
-prebuild the android after add some deps or code touch native
-```
 
-```
-npx expo run:android
+## 🌃 Features
 
-run the app to android, which use device already connect to adb
-```
+- 🚫 No ads, thanks to the use of public & free music metadata providers and YT Music APIs
+- 🖥️ 📱 Cross mobile platform support
+- 🪶 Small size & less data usage
+- 🕵️ Anonymous/guest login
+- 🚀 Native performance
+- 📖 Open source/libre software
 
-```
-adb pair 192.168.1.9:33757 -> pair with wireless debugging and put some auth after that
-adb devices -l -> list of devices connected
-adb push build-1752600101742.apk /sdcard/Download/ -> push apk build to android detected
-```
+### ❌ Unsupported features
+- ⬇️ **Freely downloadable tracks** [Coming soon!]
 
-## Config
+## 🌃 Documentary
 
-```
-{
-    "android": {
-        "usesCleartextTraffic": true
-    }
-}
-on app.json to support http not only https
-
-```
-
-```
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
-    },
-
-eas build --platform android --profile preview --local -> build local apk with preview profile on eas.json
-```
-
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<img width="200" src="assets/images/list.jpg" alt="Vvinamp List">
+<img width="200" src="assets/images/player.jpg" alt="Vvinamp Player">
+<img width="200" src="assets/images/search.jpg" alt="Vvinamp Search">
+<img width="200" src="assets/images/lockscreen.jpg" alt="Vvinamp Lockscreen">
+    
+<iframe src="https://drive.google.com/file/d/1CXv_J6Uaov26Mxp30yLyVzs2_QCPlq3H/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Get started
 
@@ -62,38 +40,82 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-   npx expo start
+   npx expo run:android
    ```
 
-In the output, you'll find options to open the app in a
+#### Prerequisite
+**commandlinetools** -> android sdk contains build tools, platform tools, and API need to compile ``
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```
+# sdkmanager
+brew install --cask android-commandlinetools
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Accept all licenses first
+sdkmanager --licenses
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+# Install all required Android components
+sdkmanager "platforms;android-34"
+sdkmanager "build-tools;34.0.0"
+sdkmanager "platform-tools"
+sdkmanager "cmdline-tools;latest"
+sdkmanager "ndk;26.1.10909125"
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+#### zshrc adjustment
+```
+export ANDROID_HOME=/opt/homebrew/share/android-commandlinetools
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/build-tools/34.0.0
 
-## Learn more
+export JAVA_HOME=/opt/homebrew/opt/openjdk@17
+export PATH=$PATH:$JAVA_HOME/bin
 
-To learn more about developing your project with Expo, look at the following resources:
+export NDK_HOME=$ANDROID_HOME/ndk/26.1.10909125
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+export PATH=$PATH:$NDK_HOME/toolchains/llvm/prebuilt/darwin-x86_64/bin
+```
 
-## Join the community
 
-Join our community of developers creating universal apps.
+## Command Line
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+``npx expo prebuild -p android --clean`` prebuild the android after add some deps or code touch native
+
+
+``npx expo run:android`` run the app to android, which use device already connect to adb
+
+
+```
+adb pair 192.168.1.9:33757 -> pair with wireless debugging and put some auth after that
+adb devices -l -> list of devices connected
+adb push build-1752600101742.apk /sdcard/Download/ -> push apk build to android detected
+```
+
+## Config
+
+
+``"newArchEnabled": false,`` in eas.json to tell the gradle not using newArchEnabled because react-native-track-player (RTNP) not supported it
+
+``
+{
+    "android": {
+        "usesCleartextTraffic": true
+    }
+}
+`` on app.json to support http not only https
+
+```
+#eas.json
+
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+```
+``eas build --platform android --profile preview --local`` will build local apk with preview profile on eas.json
+
+
+
