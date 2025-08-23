@@ -24,7 +24,7 @@ A mobile app for searching, downloading, and streaming YouTube audio, built with
 
 <img width="200" src="assets/images/list.jpg" alt="Vvinamp List"><img width="200" src="assets/images/player.jpg" alt="Vvinamp Player"><img width="200" src="assets/images/search.jpg" alt="Vvinamp Search"><img width="200" src="assets/images/lockscreen.jpg" alt="Vvinamp Lockscreen">
     
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/VIDEO_ID)
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/watch?v=Y72UgkygvHI)
 
 
 ## Get started
