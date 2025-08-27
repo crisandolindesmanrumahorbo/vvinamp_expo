@@ -62,6 +62,9 @@ A mobile app for searching, downloading, and streaming YouTube audio, built with
    npx expo run:android
    ```
 
+## Service Dependencies
+<a href="https://github.com/crisandolindesmanrumahorbo/vvinamp-stream" target="_blank">VVinamp Stream</a>
+
 #### Prerequisite
 **commandlinetools** -> android sdk contains build tools, platform tools, and API need to compile ``
 
