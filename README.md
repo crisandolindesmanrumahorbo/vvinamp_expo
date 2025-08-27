@@ -20,12 +20,33 @@ A mobile app for searching, downloading, and streaming YouTube audio, built with
 ### ❌ Unsupported features
 - ⬇️ **Freely downloadable tracks** [Coming soon!]
 
+## 🛠️ Tech Stack
+Backend: Rust (yt-dlp, ffmpeg integration), PostgreSQL
+Frontend (Mobile): Expo (React Native), React Native Track Player
+Web (Utility): Next.js (progress page, track management)
+Protocols: HLS streaming (.m3u8, .ts)
+
 ## 🌃 Documentary
 
 <img width="200" src="assets/images/list.jpg" alt="Vvinamp List"><img width="200" src="assets/images/player.jpg" alt="Vvinamp Player"><img width="200" src="assets/images/search.jpg" alt="Vvinamp Search"><img width="200" src="assets/images/lockscreen.jpg" alt="Vvinamp Lockscreen">
     
 [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/watch?v=Y72UgkygvHI)
 
+## 🔧 How It Works
+1. User searches for a track in the mobile app.
+2. The backend uses yt-dlp to fetch & download the audio.
+3. The audio is converted into HLS segments using ffmpeg.
+4. Conversion progress is tracked and displayed via API/web.
+5. Once stored in the backend, the track is added to the PostgreSQL database.
+6. Mobile app fetches the updated track list from backend.
+7. When the user plays a track, the app streams it using HLS protocol with full background support.
+
+## 🎯 Learning Goals
+- Explore Rust backend development for media processing.
+- Learn video/audio handling with yt-dlp + ffmpeg.
+- Implement adaptive streaming (HLS) in a mobile app.
+- Integrate background playback and notification controls with React Native.
+- Build an end-to-end media pipeline from search → download → convert → stream.
 
 ## Get started
 
