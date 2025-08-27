@@ -21,10 +21,10 @@ A mobile app for searching, downloading, and streaming YouTube audio, built with
 - ⬇️ **Freely downloadable tracks** [Coming soon!]
 
 ## 🛠️ Tech Stack
-Backend: Rust (yt-dlp, ffmpeg integration), PostgreSQL
-Frontend (Mobile): Expo (React Native), React Native Track Player
-Web (Utility): Next.js (progress page, track management)
-Protocols: HLS streaming (.m3u8, .ts)
+- Backend: Rust (yt-dlp, ffmpeg integration), PostgreSQL
+- Frontend (Mobile): Expo (React Native), React Native Track Player
+- Web (Utility): Next.js (progress page, track management)
+- Protocols: HLS streaming (.m3u8, .ts)
 
 ## 🌃 Documentary
 
