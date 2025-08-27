@@ -1,0 +1,511 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Page-1" id="hhc-3vojLrsu7cH_NppL">
+    <mxGraphModel dx="3167" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aYuEhdUsY_7i3M8jclc8-1" target="aYuEhdUsY_7i3M8jclc8-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-1" value="view_count&lt;div&gt;thumbnail&lt;/div&gt;&lt;div&gt;duration&lt;/div&gt;&lt;div&gt;channel&lt;/div&gt;&lt;div&gt;channel_follower_count&lt;/div&gt;&lt;div&gt;like_count&lt;/div&gt;&lt;div&gt;is_verified&lt;/div&gt;&lt;div&gt;upload_date&lt;/div&gt;&lt;div&gt;duration_string&lt;/div&gt;&lt;div&gt;title&lt;/div&gt;&lt;div&gt;fulltitle&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-3" value="yt-dlp ytsearch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="170" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-6" target="aYuEhdUsY_7i3M8jclc8-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-6" value="List of query youtube" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-8" target="aYuEhdUsY_7i3M8jclc8-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-8" value="will print to the FE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-10" target="aYuEhdUsY_7i3M8jclc8-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-10" value="clicked means preview" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-12" target="aYuEhdUsY_7i3M8jclc8-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-12" value="below the preview, there is button save to server with time range form" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-14" target="aYuEhdUsY_7i3M8jclc8-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-14" value="clicked submit trigger the yt-dpl to donload the mp3 to server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-17" target="aYuEhdUsY_7i3M8jclc8-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-17" value="Search on mobile apps" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-18" value="list of query youtube&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;list of server downloaded&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aYuEhdUsY_7i3M8jclc8-20" target="aYuEhdUsY_7i3M8jclc8-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-20" value="after succeed save the title and some info database" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-22" value="stored to server" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="750" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-24" value="User can&lt;br&gt;1. query song on server&lt;div&gt;2. donload the song to local pho&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="620" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="960" as="sourcePoint" />
+            <mxPoint x="840" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="990" width="320" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-27" value="download" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-28" value="hls playlist" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-29" value="segment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-30" value="search yt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-31" value="download status" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-32" value="Done:&lt;div&gt;- store the song to db after suceed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-33" value="Download" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-36" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1349.1699999999998" as="sourcePoint" />
+            <mxPoint x="70" y="1349.1699999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-38" value="user_playlist" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1410" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-40" value="add, remove, delete song" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="aYuEhdUsY_7i3M8jclc8-38" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-41" value="add, remove, delete playlist" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="aYuEhdUsY_7i3M8jclc8-38" vertex="1">
+          <mxGeometry x="10" y="70" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-42" value="TODO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-43" value="Done:&lt;div&gt;- get detail info&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-44" value="search yt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-45" value="download_local" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1560" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-48" value="query_song_server" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1250" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-51" value="with limit and title (pagination soon)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="aYuEhdUsY_7i3M8jclc8-48" vertex="1">
+          <mxGeometry x="10" y="20" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1790" width="320" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-53" value="mobile can search to youtbe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-54" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="2060" as="sourcePoint" />
+            <mxPoint x="420" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-55" value="show list song from server and play it" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-56" value="mobile add song to server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-57" value="mobile can see the progress" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-58" value="mobile can download the song to local&lt;div&gt;(mp3/hls file)??&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-59" value="playlist" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-60" value="login?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-62" value="floating player close" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-63" value="settings menu for log and some settings maybe account" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aYuEhdUsY_7i3M8jclc8-64" value="player page complete feature seek 10s" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-49" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Highlight Feature&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="860" y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Repositories&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FE:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Web (https://github.com/crisandolindesmanrumahorbo/vvinamp_expo)&lt;/div&gt;&lt;div&gt;- Mobile&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BE:&lt;/div&gt;&lt;div&gt;- Stream&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="890" y="90" width="370" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-52" value="Stream&lt;div&gt;&lt;div&gt;- get tracks&lt;/div&gt;&lt;div&gt;- search for query yt&lt;/div&gt;&lt;div&gt;- download from youtube and convert&lt;/div&gt;&lt;div&gt;- task status for tracking download progress&lt;/div&gt;&lt;br&gt;&lt;div&gt;mobile only (hsl format)&lt;div&gt;- playlist for get .m3u8&lt;/div&gt;&lt;div&gt;- segment for get playlist segment&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;web only (mp3 format)&lt;/div&gt;&lt;div&gt;- /stream for get info bytes&lt;/div&gt;&lt;div&gt;- /add song for add mp3 song from youtube with range time&lt;/div&gt;&lt;div&gt;- /stream for stream mp3 song by bytes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="890" y="280" width="330" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-54" value="Web&lt;div&gt;- handle bytes for streaming song&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="890" y="570" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Tech Stack / Tools&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FE:&lt;/div&gt;&lt;div&gt;- Expo&lt;/div&gt;&lt;div&gt;- tailwind&lt;/div&gt;&lt;div&gt;- zustand&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BE:&lt;/div&gt;&lt;div&gt;- Rust&lt;/div&gt;&lt;div&gt;- websocket&lt;/div&gt;&lt;div&gt;- tokio&lt;/div&gt;&lt;div&gt;- sqlx&lt;/div&gt;&lt;div&gt;- request-http-server&lt;/div&gt;&lt;div&gt;- ffmpeg&lt;/div&gt;&lt;div&gt;- yt-dlp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1291" y="80" width="250" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-56" value="Mobile&lt;div&gt;- React Native Track Player with HLS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="890" y="670" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-61" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1700" y="825" width="200" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-60" value="Streaming Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-61" vertex="1">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-65" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="960" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-66" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="960" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-67" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="960" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qKrftPKoV9TNDZDGKAja-57" target="qKrftPKoV9TNDZDGKAja-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="920" />
+              <mxPoint x="1440" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.033;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qKrftPKoV9TNDZDGKAja-58" edge="1" target="qKrftPKoV9TNDZDGKAja-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="937.6666666666667" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1700" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-58" value="1. /playlist&lt;div&gt;3. /segment&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/mp3/..mp3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/hls/{title}/{title}.m3u8 -&amp;gt; playlist (contain segments)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/hls/{title}/{title}.ts -&amp;gt; segment&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="850" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-70" value="1. request playlist" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="890" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-72" value="2. m3u8 playlist" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1455" y="958" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1060" as="sourcePoint" />
+            <mxPoint x="1700" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-76" value="3. request segment .ts file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.1208" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="qKrftPKoV9TNDZDGKAja-58" target="qKrftPKoV9TNDZDGKAja-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-78" value="4. response segment.ts file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-77" vertex="1" connectable="0">
+          <mxGeometry x="0.1208" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-85" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.017;entryY=0.854;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="qKrftPKoV9TNDZDGKAja-58" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="1149" as="sourcePoint" />
+            <mxPoint x="1380" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-86" value="step 3.4 back and forth until last segment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.1837" y="-3" relative="1" as="geometry">
+            <mxPoint x="30" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-92" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1260" y="1260" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-92" vertex="1">
+          <mxGeometry y="20.526315789473685" width="120" height="239.47368421052633" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-94" value="Mobile App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-92" vertex="1">
+          <mxGeometry width="120" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-103" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1690" y="1260" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="qKrftPKoV9TNDZDGKAja-103" source="qKrftPKoV9TNDZDGKAja-105" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="140.26315789473685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-122" value="4. return array of youtube result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-118" vertex="1" connectable="0">
+          <mxGeometry x="0.3932" y="-5" relative="1" as="geometry">
+            <mxPoint x="49" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-105" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-103" vertex="1">
+          <mxGeometry y="20.526315789473685" width="200" height="239.47368421052633" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-106" value="Streaming Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-103" vertex="1">
+          <mxGeometry width="120" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-111" value="/search" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-103" vertex="1">
+          <mxGeometry x="10" y="89.99684210526316" width="60" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-121" value="change the lines of string to object of YoutubeResult" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-103" vertex="1">
+          <mxGeometry y="130" width="200" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="1390" as="targetPoint" />
+            <mxPoint x="2140" y="1390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1890" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-120" value="3. 10 lines string of result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-117" vertex="1" connectable="0">
+          <mxGeometry x="0.113" y="-4" relative="1" as="geometry">
+            <mxPoint x="42" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-107" value="yt-dlp &quot;ytsearch10:lofi hip hop&quot; --dump-json&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;return top 10 title hiphop&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2140" y="1290" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-108" value="yt-dlp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2090" y="1260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1358.67" as="sourcePoint" />
+            <mxPoint x="1690" y="1358.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-110" value="1. query title" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-109" vertex="1" connectable="0">
+          <mxGeometry x="-0.2387" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="1360" as="sourcePoint" />
+            <mxPoint x="2140" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-119" value="2. Command yt-dlp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-116" vertex="1" connectable="0">
+          <mxGeometry x="-0.1787" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-123" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1260" y="1570" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-124" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-123" vertex="1">
+          <mxGeometry y="20.526315789473685" width="120" height="239.47368421052633" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-125" value="Mobile App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-123" vertex="1">
+          <mxGeometry width="120" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-126" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1690" y="1570" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-129" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-126" vertex="1">
+          <mxGeometry y="20.526315789473685" width="200" height="239.47368421052633" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-130" value="Streaming Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-126" vertex="1">
+          <mxGeometry width="120" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-131" value="/download" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-126" vertex="1">
+          <mxGeometry x="20" y="89.99684210526316" width="60" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-205" value="save the title to database&lt;div&gt;task_status DONE&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-126" vertex="1">
+          <mxGeometry x="20" y="200" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="qKrftPKoV9TNDZDGKAja-135" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="1715.3947368421054" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-161" value="3. song already store in mp3 folder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-157" vertex="1" connectable="0">
+          <mxGeometry x="0.1139" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-135" value="yt-dlp --extract-audio --audio-format mp3 -o &quot;./mp3/%(title)s.%(ext)s&quot; &quot;YOUTUBE_URL&quot;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;download the song with mp3 format according to youtube url with path ./mp3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2140" y="1600" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-136" value="yt-dlp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2090" y="1570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1668.67" as="sourcePoint" />
+            <mxPoint x="1690" y="1668.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-138" value="1. download with url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-137" vertex="1" connectable="0">
+          <mxGeometry x="-0.2387" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="1670" as="sourcePoint" />
+            <mxPoint x="2140" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-140" value="2. Command yt-dlp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-139" vertex="1" connectable="0">
+          <mxGeometry x="-0.1787" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="qKrftPKoV9TNDZDGKAja-156" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="1780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1910" y="2058" />
+              <mxPoint x="1910" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-156" value="&lt;div&gt;ffmpeg -i INPUT.mp3 -c:a aac -b:a 128k -ac 2 -ar 44100 -f hls \ -hls_time 10 -hls_playlist_type vod \ -hls_segment_filename &quot;output_%03d.ts&quot; &quot;playlist.m3u8&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;generate m3u8 playlist and ts segment with path&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2140" y="1885" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-160" value="ffmpeg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2130" y="1855" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qKrftPKoV9TNDZDGKAja-129" target="qKrftPKoV9TNDZDGKAja-156" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1890" y="1750" />
+              <mxPoint x="2015" y="1750" />
+              <mxPoint x="2015" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-163" value="4. generate .m3u8 playlist and ts segment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-162" vertex="1" connectable="0">
+          <mxGeometry x="-0.0896" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-184" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1250" y="2160" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-185" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-184" vertex="1">
+          <mxGeometry y="20.526315789473685" width="120" height="239.47368421052633" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-186" value="Mobile App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-184" vertex="1">
+          <mxGeometry width="120" height="20.526315789473685" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-187" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1680" y="2160" width="200" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="qKrftPKoV9TNDZDGKAja-187" source="qKrftPKoV9TNDZDGKAja-190" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="188.81578947368425" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-149" y="410" />
+              <mxPoint x="-149" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-189" value="2. state and log infromation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-188" vertex="1" connectable="0">
+          <mxGeometry x="0.3932" y="-5" relative="1" as="geometry">
+            <mxPoint x="4" y="104" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-190" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-187" vertex="1">
+          <mxGeometry y="27.63" width="200" height="512.37" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-191" value="Streaming Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-187" vertex="1">
+          <mxGeometry width="120" height="27.631578947368425" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-192" value="/task status" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-187" vertex="1">
+          <mxGeometry x="10" y="90.00384615384615" width="110" height="27.636538461538464" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-193" value="when downloading, the task_id return immidiately. The donwload and parsing track done in the background (since its spawn new tokio task)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;so, on the step 2 download task_status already start. The state stored in memory of the server, the status done when succeed to save track information to database&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-187" vertex="1">
+          <mxGeometry y="175" width="200" height="161.53846153846155" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-213" value="STATE in memory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-187" vertex="1">
+          <mxGeometry x="10" y="390" width="110" height="27.636538461538464" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="2258.67" as="sourcePoint" />
+            <mxPoint x="1680" y="2258.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-199" value="1. query task_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-198" vertex="1" connectable="0">
+          <mxGeometry x="-0.2387" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qKrftPKoV9TNDZDGKAja-129" target="qKrftPKoV9TNDZDGKAja-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-203" value="5. return task_Id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKrftPKoV9TNDZDGKAja-202" vertex="1" connectable="0">
+          <mxGeometry x="0.1452" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-215" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Streaming Track&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-216" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Query New Track&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="1380" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-217" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Download Track&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="1650" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-218" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Track Progress Status&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="2260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-222" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1230" y="825" width="150" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-69" value="" style="group" parent="qKrftPKoV9TNDZDGKAja-222" vertex="1" connectable="0">
+          <mxGeometry width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-68" value="Mobile App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qKrftPKoV9TNDZDGKAja-69" vertex="1">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qKrftPKoV9TNDZDGKAja-57" value="&lt;div&gt;React Nativi Track Player (RNTP)&lt;/div&gt;&lt;div&gt;Exo player&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="qKrftPKoV9TNDZDGKAja-222" vertex="1">
+          <mxGeometry x="30" y="25" width="120" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
